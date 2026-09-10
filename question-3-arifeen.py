@@ -3,7 +3,7 @@ import math
 import scipy.stats as stats
 
 # load the data
-df = pd.read_csv("players.csv")
+df = pd.read_csv("question-3-dataset-arifeen.csv")
 
 # get only defenders and midfielders
 filtered_data = df[(df["Pos"] == "DF") | (df["Pos"] == "MF")]
